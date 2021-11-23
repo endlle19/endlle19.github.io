@@ -1,0 +1,19 @@
+h1 { 
+
+font-size: 50px;
+background-color: lightblue;}
+div { 
+height: 100px;
+width: 400px; }
+
+.weiß { 
+background-color: white; }
+
+.rot {
+	background-color: red;
+}
+.blau { 
+background-color: blue; }
+img { 
+ width: 500px;
+ border: 10px double darkblue; }

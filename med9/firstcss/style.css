@@ -1,0 +1,26 @@
+h1 { 
+	background-color: lightgreen;
+text-decoration: overline;
+font-size: 20px;
+font-weight: bold;
+font: fantasy;
+ }
+
+
+ body {
+ 	background-color: lightblue;
+ 	font-family: Arial,Helvetica, Comic Sans; 
+ }
+
+p { 
+	border: 3px dotted yellow;
+}
+ul { background-color: beige;
+     color: brown;
+ }
+
+
+ol{ 
+background-color: pink;
+color: black; 
+}

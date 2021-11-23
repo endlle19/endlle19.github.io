@@ -1,0 +1,25 @@
+h1 { 
+background-color: lightblue;
+padding: 50px;
+padding-right: 70px;
+padding-left: 70px;
+margin: 50px;
+border: 3px solid darkblue;
+font-size: 20px;
+text-align: left;
+
+ }
+ body {
+ 	background-color: blue;
+ }
+ p { 
+background-color: lightblue;
+
+padding: 50px;
+padding-left: 70px;
+padding-right: 70px;
+margin: 50px;	
+border: 3px dotted darkblue;
+
+text-align: right;
+  }

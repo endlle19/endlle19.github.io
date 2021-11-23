@@ -1,0 +1,45 @@
+h1 { 
+	background-color: lightpink;
+	font-size:  30px;
+		margin: 20px;
+		padding: 20px; 
+		color: purple;
+		text-align: center;
+		 }
+h2{
+	font-size: 20px;
+	color: white;
+	text-align: center;
+}
+ body { 
+  background-color: darkblue; 
+}
+div {
+	background-color: yellow;
+	border: 30px solid orange;
+	padding: 30px;
+	color: red;
+}
+
+ul { 
+background-color: lightblue;
+border: 20px dashed blue; 
+margin-top: 10px;
+padding: 50px;
+margin: 10px;
+}
+li { 
+ padding: 10px;
+ margin-top: 30px;
+background-color: blue;
+color: white;
+
+ }
+
+p { 
+background-color: lightgreen;
+border-radius: 10px;
+border: 20px dotted green; 
+color: white;
+font-size:  50px;
+padding: 50px;}
