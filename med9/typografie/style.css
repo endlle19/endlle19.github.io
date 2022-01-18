@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script&family=The+Nautigal:wght@700&display=swap');
+
+h1 { 
+text-align: center;
+font-weight: bold;
+font-size: 50px;
+margin: 30px;
+font-family:"Bebas Neue";
+letter-spacing: 10px;
+ }
+
+ p { 
+ margin: 70px;
+ text-align: justify;
+ font-family: "The Nautigal";
+ font-size: 30px;
+ column-count: 3;
+ line-height: 1.5;
+
+  }
+  .signature { 
+  margin: 60px; 
+  font-size: 70px;
+  font-family: "Dancing Script"; 
+column-count: 1;
+}
+
+body { 
+	background: linear-gradient(90deg, rgba(231,174,68,1) 0%, rgba(218,58,18,1) 100%);
+
+ }
