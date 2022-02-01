@@ -1,0 +1,34 @@
+div { 
+width: 1000px;
+height: 400px;
+
+background: blueviolet;
+display: flex;
+
+justify-content: space-around;
+align-items:  center;
+
+
+ }
+ p { background: yellowgreen;
+  font: 20px; }
+
+  .lot { width: 400px;
+  height: 300px;
+
+  background: lightgreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   }
+   .kot { 
+
+   width: 1000px;
+   height: 600px;
+   background: lightblue; 
+display: inline;
+display: flex;
+justify-content: space-evenly;
+align-items: flex-end;}
+   img { width: 300px;
+   height: 200px; }
