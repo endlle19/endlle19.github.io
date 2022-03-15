@@ -1,0 +1,87 @@
+/* 
+*  Title:  A website about Australia
+*  Authr: Endri Lleshi
+*  Date: 15.3.22
+*/
+
+/********************** General Styles ***********************/
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+/* Navigation */
+nav { 
+background-image:url(backgroundd.jpg);
+background-size: cover;
+display: flex;
+justify-content: space-between; /* To make space between logo and list */
+background-position: center;
+padding: 30px;
+align-items: center; }
+
+ nav img { height: 150px;
+width: 150px;
+border-radius: 50%;
+  }
+
+nav ul { 
+display: flex;
+	justify-content: flex-end;
+ align-items: center;
+ font-family: "Bungee";
+ list-style-type:none ;
+ 
+ }
+
+
+nav ul li a:hover { 
+  /* hover ist used to make a nice effect if we move the mouse over the link */
+background-color: palegreen;
+color: white; }
+body { margin: 0px; } 
+nav ul li a { 
+
+ margin: 20px;
+ padding: 20px;
+ text-decoration: none; /* removes the underline decoration of a link */
+ color: black; 
+background-color: white;
+border-radius: 10px;}
+
+/* Header */
+header { height: 400px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-image: url("header-background.jpg");
+background-size: cover;
+background-position: center;
+
+ }
+ header h1 {
+  font-size: 60px;
+  text-transform:uppercase;
+  background-color:rgba(255, 255,255,0.8);
+ border-radius:20px;
+ padding: 20px
+ }
+
+ footer { 
+ display:flex;
+ justify-content: space-evenly;
+ align-items: center;
+height: 400px;
+background: rgb(252,0,0);
+background: linear-gradient(106deg, rgba(252,0,0,1) 0%, rgba(252,124,124,1) 45%, rgba(63,94,251,1) 68%, rgba(130,226,254,1) 100%);
+padding: 0px;
+margin: 0px;
+}
+
+footer p { 
+font-size: 30px;
+color: white;
+}  
+/*section*/
+
+section { padding: 50px;
+ }
