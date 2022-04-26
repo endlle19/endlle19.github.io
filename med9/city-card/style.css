@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+article { 
+
+display: flex;
+justify-content: center;
+align-items: center; }
+
+
+div { 
+width: 700px;
+height: 400px; }
+
+img { width: 700px;
+
+height: 400px;
+position: relative; 
+z-index: -1000;}
+
+.text { background: rgb(133,133,133);
+background: linear-gradient(117deg, rgba(133,133,133,1) 0%, rgba(255,237,153,1) 100%); 
+position: relative;
+z-index: -100;}
+ 
+ h2 {  padding: 30px;
+ background: palegoldenrod;
+ position: absolute;
+ left: -50px;
+ top: 120px;
+  z-index: 10;
+  font-size: 30px;
+  font-family: "Secular One"; }
+ h1 { background-color: gainsboro;
+       
+       padding: 20px;
+ 	font-size: 70PX;
+ 	position: absolute;
+ 	left: 270px;
+    top: 170px;
+z-index: -1;
+font-family: "Secular One";}
+body {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+
+ min-height: 100vh; }
+
