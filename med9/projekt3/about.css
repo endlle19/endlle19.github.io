@@ -1,0 +1,97 @@
+/* 
+*  Title:  A website about Bikes
+*  Authr: Endri Lleshi
+*  Date: 15.3.22
+*/
+
+/********************** General Styles ***********************/
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+/* Navigation */
+nav { 
+background-image:url(backgroundd.jpg);
+background-size: cover;
+display: flex;
+justify-content: space-between; /* To make space between logo and list */
+background-position: center;
+padding: 30px;
+align-items: center;
+image-rendering: -webkit-optimize-contrast; }
+
+ nav img { height: 150px;
+width: 150px;
+border-radius: 50%;
+background: gray;
+  }
+
+nav ul { 
+display: flex;
+	justify-content: flex-end;
+ align-items: center;
+ font-family: "Bungee";
+ list-style-type:none ;
+ 
+ }
+
+
+nav ul li a:hover { 
+  /* hover ist used to make a nice effect if we move the mouse over the link */
+background: rgb(133,133,133);
+background: linear-gradient(117deg, rgba(133,133,133,1) 0%, rgba(0,0,0,1) 100%);
+color: white; }
+body { margin: 0px; } 
+nav ul li a { 
+
+ margin: 20px;
+ padding: 20px;
+ text-decoration: none; /* removes the underline decoration of a link */
+ color: black; 
+background-color: white;
+border-radius: 10px;}
+
+/* Header */
+header { height: 400px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-image: url("section-background1.jpg");
+background-size: cover;
+background-position: center;
+
+ }
+ header h1 {
+  font-size: 60px;
+  text-transform:uppercase;
+  background-color:rgba(255, 255,255,0.8);
+ border-radius:20px;
+ padding: 20px
+ }
+
+ footer { 
+ display:flex;
+ justify-content: space-evenly;
+ align-items: center;
+height: 400px;
+background: rgb(133,133,133);
+background: linear-gradient(47deg, rgba(133,133,133,1) 0%, rgba(32,32,32,1) 100%);
+padding: 0px;
+margin: 0px;
+}
+
+footer p { 
+font-size: 30px;
+color: white;
+}  
+ .l {  
+
+ padding: 100px; 
+ font-size: 20px;
+ margin: 0px;
+ 
+  font-family: "Bungee";
+  background: rgb(133,133,133);
+background: linear-gradient(47deg, rgba(133,133,133,1) 0%, rgba(112,112,112,1) 53%, rgba(208,208,208,1) 100%);
+
+ }

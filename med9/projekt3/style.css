@@ -1,0 +1,340 @@
+/* 
+*  Title:  A website about Bikes
+*  Authr: Endri Lleshi
+*  Date: 15.3.22
+*/
+
+/********************** General Styles ***********************/
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+/* Navigation */
+nav { 
+background-image:url(backgroundd.jpg);
+background-size: cover;
+display: flex;
+justify-content: space-between; /* To make space between logo and list */
+background-position: center;
+padding: 30px;
+align-items: center;
+image-rendering: -webkit-optimize-contrast; 
+height: 100px;
+width: 1480px;
+position: fixed;
+z-index: 10;}
+
+ nav img { height: 150px;
+width: 150px;
+border-radius: 50%;
+background: gray;
+  }
+
+nav ul { 
+display: flex;
+	justify-content: flex-end;
+ align-items: center;
+ font-family: "Bungee";
+ list-style-type:none ;
+ 
+ }
+
+
+nav ul li a:hover { 
+  /* hover ist used to make a nice effect if we move the mouse over the link */
+background: rgb(133,133,133);
+background: linear-gradient(117deg, rgba(133,133,133,1) 0%, rgba(0,0,0,1) 100%);
+color: white; }
+body { margin: 0px; } 
+nav ul li a { 
+
+ margin: 20px;
+ padding: 20px;
+ text-decoration: none; /* removes the underline decoration of a link */
+ color: black; 
+background-color: white;
+border-radius: 10px;}
+
+/* Header */
+.h { height: 400px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-image: url("header-background.jpg");
+background-size: cover;
+background-position: center;
+
+ }
+#header {
+  font-size: 60px;
+  text-transform:uppercase;
+  background-color:rgba(255, 255,255,0.8);
+ border-radius:20px;
+ padding: 20px
+ }
+
+ .f { 
+ display:flex;
+ justify-content: space-evenly;
+ align-items: center;
+height: 400px;
+background: rgb(133,133,133);
+background: linear-gradient(47deg, rgba(133,133,133,1) 0%, rgba(32,32,32,1) 100%);
+padding: 0px;
+margin: 0px;
+}
+
+.f p { 
+font-size: 30px;
+color: white;
+}  
+/*section*/
+
+
+
+
+ article .image   { 
+height: 170px;
+width: 300px;
+background-image: url("article.jpg");
+background-position: center;
+background-size:cover ;
+padding: 25px; }
+
+article .image1   { 
+height: 170px;
+width: 300px;
+background-image: url("article1.jpg");
+background-position: center;
+background-size:cover ;
+padding: 25px; }
+
+article .image2  { 
+height: 170px;
+width: 300px;
+background-image: url("article2.jpg");
+background-position: center;
+background-size:cover ;
+padding: 25px;}
+
+article .image3   { 
+height: 170px;
+width: 300px;
+background-image: url("article3.jpg");
+background-position: center;
+background-size:cover ;
+padding: 25px;}
+
+article .image4   { 
+height: 170px;
+width: 300px;
+background-image: url("article4.jpg");
+background-position: center;
+background-size:cover ;
+padding: 25px;}
+
+article .image5   { 
+height: 170px;
+width: 300px;
+background-image: url("article5.jpg");
+background-position: center;
+background-size:cover ;
+padding: 25px;
+
+  }
+
+  article .text { 
+height: 170px;
+width: 300px;
+background-color: white;
+padding: 25px;
+display: flex;
+justify-content: space-between;
+align-items: stretch;
+flex-direction: column;
+background-color: lightgray;
+   }
+
+article .text footer { 
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+font-size: 13px;
+color:  darkgray;
+    }
+
+    article header .articlee{
+text-transform: uppercase;
+font-size: 12px;
+
+    }
+
+    header span { 
+margin-right:8px ;
+     }
+
+     article .box { 
+     background-color: red;
+     color: white;
+     text-transform: uppercase;
+     font-size: 12px;
+     padding: 6px; 
+     position: absolute;
+     left: 20px;
+     top: 214px;}
+
+     article { 
+     position: relative;
+     padding: 20px;
+       }
+
+
+
+
+  section { display: flex;
+
+ justify-content: space-around;
+
+
+ }
+.ha  { height: 400px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-image: url("header-backgroundd.jpg");
+background-size: cover;
+background-position: center;
+
+ }
+ header h1{
+  font-size: 60px;
+  text-transform:uppercase;
+  background-color:rgba(255, 255,255,0.8);
+ border-radius:20px;
+ padding: 20px
+ }
+
+ .f{ 
+ display:flex;
+ justify-content: space-evenly;
+ align-items: center;
+height: 400px;
+background: rgb(133,133,133);
+background: linear-gradient(47deg, rgba(133,133,133,1) 0%, rgba(32,32,32,1) 100%);
+padding: 0px;
+margin: 0px;
+}
+
+footer p { 
+font-size: 30px;
+color: white;
+}  
+/*section*/
+
+.sec { 
+  background-image: url(section-background.jpg);
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+ 
+
+ }
+ section h2 {
+    font-size: 20px;
+  text-transform:uppercase;
+  background-color:rgba(255, 255,255,0.8);
+ border-radius:20px;
+ padding: 20px;
+ }  
+
+section  ul { 
+font-size: 20px;
+  text-transform:uppercase;
+  background-color:rgba(255, 255,255,0.8);
+ border-radius:20px;
+ padding: 20px; }
+ .o {  
+
+ padding: 100px; 
+ font-size: 20px;
+ margin: 0px;
+ 
+  font-family: "Bungee";
+  background: rgb(133,133,133);
+background: linear-gradient(47deg, rgba(133,133,133,1) 0%, rgba(112,112,112,1) 53%, rgba(208,208,208,1) 100%);
+
+ }
+
+
+
+
+ /* Header */
+.hea { height: 400px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-image: url("section-background1.jpg");
+background-size: cover;
+background-position: center;
+
+ }
+ header h1 {
+  font-size: 60px;
+  text-transform:uppercase;
+  background-color:rgba(255, 255,255,0.8);
+ border-radius:20px;
+ padding: 20px
+ }
+
+  .l {  
+
+ padding: 100px; 
+ font-size: 20px;
+ margin: 0px;
+ 
+  font-family: "Bungee";
+  background: rgb(133,133,133);
+background: linear-gradient(47deg, rgba(133,133,133,1) 0%, rgba(112,112,112,1) 53%, rgba(208,208,208,1) 100%);
+
+ }
+
+
+
+
+.shop {
+  height: 100%;
+  width: 100%;
+  display: inline-block;
+  position: relative;
+  height: 1000px;
+  background: rgb(231,70,1);
+background: linear-gradient(187deg, rgba(231,70,1,1) 0%, rgba(0,0,0,1) 100%, rgba(0,212,255,1) 100%);
+margin: 0px;
+}
+
+.ar { position: absolute;
+ top: 20px;
+ left: 120px; }
+
+
+ .art { position: absolute;
+ top: 20px;
+ left: 520px; }
+
+  .arti { position: absolute;
+ top: 20px;
+ left: 920px; }
+
+ .artic { position: absolute;
+ top: 490px;
+ left: 520px; }
+
+ .articl { position: absolute;
+ top: 490px;
+ left: 120px; }
+
+  .article { position: absolute;
+ top: 490px;
+ left: 920px; }
