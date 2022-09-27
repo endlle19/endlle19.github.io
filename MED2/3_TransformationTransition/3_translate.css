@@ -1,0 +1,64 @@
+
+
+.container {   
+
+	margin: 100px;
+
+
+
+ }
+
+
+ .a , .b , .c, .d, .e { 
+ 	height: 30px;
+ 	width: 30px;
+ border-radius: 50%;
+ margin: 10px; }
+
+ .a {
+
+ background-color: rebeccapurple;
+ transition-duration: 2s;
+ /* linear: gleichmaesige Bewegung */
+ transition-timing-function: linear;
+
+
+  }
+
+  .b{   
+
+ background-color: purple;
+ transition:  2s ease;
+   }
+   
+
+   .c { 
+
+    background-color: deeppink;
+    transition: 2s ease-out; 
+}
+
+    .d {
+
+    	background-color: lightpink	;
+    	transition: 2s ease-in-out; 
+    }
+
+    .e { background-color: slategrey;
+    	transition: 2s ease-in; 
+
+     }
+
+
+    .container:hover .a, .container:hover .b, .container:hover .c, .container:hover .d, .container:hover .e { 
+
+
+    	transform: translateX(200px);
+
+
+
+
+
+     }
+
+

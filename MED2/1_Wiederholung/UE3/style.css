@@ -1,0 +1,32 @@
+h1 {   position: absolute;
+       height: 100px;
+       width: 300px	;
+       background-color: seagreen;
+
+ }
+#a {   
+     
+     background-color: lightyellow;
+     margin: 10px;
+     min-height: 20px;
+
+ }
+
+ #b {   
+        background-color: red;
+        width: 50px;
+       min-height: 500px;
+        margin: 10px;
+
+
+  }
+  p { padding: 10px; }
+
+  body { font-family: Sans-Serif; }
+
+  img { position: relative;
+        left: 300px; 
+        top: 21px;
+       height: 100px;
+       width: 200px;}
+
