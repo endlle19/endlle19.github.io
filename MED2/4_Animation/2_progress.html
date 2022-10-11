@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Progressbar</title>
+	<style type="text/css">
+
+		.text { 
+		
+            font-size: 30px;
+            color:  indianred;
+
+		 }
+
+		 .bar {
+
+		 
+		 	border-radius: 15px;
+		 	  
+            width: 250px;
+		 	height: 10px;
+		 	background-color: #f4a261;
+		 	 margin: 5px; 
+		 	 border: solid #f4a261;
+
+
+
+
+		 }
+		 
+
+		 	.bar2 {
+
+		 		background-color: white;
+		 		
+		 		height: 10px;
+		 		border-radius: 15px;
+
+
+ 
+		 		animation-timing-function: ease-out;
+		 		animation-name: complete;
+		 		animation-duration: 5s;
+		 	animation-iteration-count: infinite;
+
+
+
+		 	}
+
+		 	@keyframes complete {
+
+		 		0% { width: 0%; }
+		 		25% { width: 50%; }
+		 		50% { width: 75%; }
+		 		75% { width: 85%; }
+
+
+
+		 		100% { width: 100%; }
+
+
+
+		 	}
+		body { background-color: #2a9d8f;
+
+		 }
+ 
+
+	</style>
+</head>
+<body>
+	<div> 
+		<div class="text">Progressing ...</div>
+
+		<div class="bar"> <div class="bar2"></div></div>
+    
+	</div>
+
+</body>
+</html>	
