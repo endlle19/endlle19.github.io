@@ -1,0 +1,68 @@
+*{
+     /* Nav, Article und Aside sind mit dem Padding groesser als 100%
+     Die dre Beriche erscheinen daher nicht nebeneinander.
+     Box-siing: border-box...alle Groessenangaben umfassen das gesamte Element (inkl. Padding, Margin,...)  */
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	/*  Zu lange Woerter ragen aus dem Container raus.
+	Word-wrap:break-word... teilt das Wort auf zwei Zeilen auf.*/
+	word-wrap:break-word ;
+}
+
+
+/*  Haendy design */
+
+
+header, nav,article, aside { 
+width: 100%; }
+header { 
+
+
+background-color: lightgray;
+font-size: 20px; }
+
+nav { background-color: lightcoral;
+padding: 25px;
+}
+
+article { background-color:lightgoldenrodyellow;
+padding: 25px;
+}
+
+
+aside { background-color: lightsteelblue;
+padding: 25px;
+}
+
+
+/* Design fuer den Desktop */
+ @media( min-width:768px){
+
+
+
+
+article { 
+width: 50%; 
+float:left;}
+
+
+nav, aside { 
+width: 25%; 
+float: left;}
+/*  Bessere Lesbarkeit,wenn nicht die gesamte Breite ausgenutzt wird. Kuerzere Zeilen! */
+#container { 
+
+width: 70%;
+margin: auto; /* Bereich wird mittig angeeigt */ } 
+}
+
+
+
+nav ul  { 
+
+list-style-type: none; }
+
+
+ 
+
