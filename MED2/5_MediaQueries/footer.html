@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport">
+	<meta charset="utf-8">
+	<title>Responsive Footer</title>
+	<style type="text/css">
+		* { box-sizing: border-box;
+		padding: 0;
+		margin: 0;
+		word-wrap: break-word; }
+		
+		footer{ 
+
+			background: rgb(2,0,36);
+background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 53%, rgba(0,212,255,1) 100%);
+			
+			display: flex;
+			flex-direction: column;
+
+			
+
+
+		 }
+
+		div{
+		 	width: 100%;
+		 	color: white;
+		 	margin: auto;
+		 	text-align: center;
+		 				
+
+
+		 }
+
+		  @media(min-width: 768px){
+		  	footer {  
+		  	display: flex;
+			flex-direction: row;}
+		  	div{
+		 	width: 100%;
+		 	color: white;
+		 	margin:0;
+		 	text-align: left; }
+
+		 div {
+		 	width: 25%;
+		 	float: left;
+
+
+
+		 }
+		 div:last-child{
+
+		 	width: 50%;
+		 	float: left;
+		 }
+
+
+		}
+
+
+		 h2{ 
+		 	margin-bottom: 30px; 
+		 	margin-top: 50px;
+
+		  }
+		  p { 
+
+		  	margin-bottom: 10px;
+		  	
+
+
+		   }
+		   a,  a:focus, a:active {
+      text-decoration: none;
+      color: inherit;
+ } 
+ a:hover { 
+
+ background-color: white;
+ color: darkblue; }
+
+
+
+
+ 
+	</style>
+</head>
+<body>
+	<footer>
+		<div >
+		<h2>About</h2>
+		<p><a href="#">LINK1</a></p>
+		<p><a href="#">LINK2</a></p>
+		<p><a href="#">LINK3</a></p>
+		</div>
+
+
+
+	<div>
+	<h2>Services</h2>
+	<p><a href="#">LINK1</a></p>
+	<p><a href="#">LINK2</a></p>
+	<p><a href="#">LINK3</a></p>
+	</div>
+
+   <div >
+	<h2>Our Company</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel ex non mauris elementum egestas. Fusce ornare lacus et nisl placerat, id laoreet felis placerat. Praesent non sollicitudin nulla, a gravida leo. Vivamus id pretium orci, et pulvinar ligula. Morbi vulputate nisl sit amet ligula dignissim, quis pharetra ante condimentum. Nam condimentum, mauris id interdum tincidunt, ex magna feugiat metus, sit amet pellentesque arcu ligula ut velit. Mauris a mi justo. Donec at est ipsum. Quisque tincidunt at lectus vitae hendrerit. Nullam convallis justo lacus, lacinia egestas risus lacinia in. Phasellus accumsan lectus a augue semper, id tempor tortor ultricies. In hendrerit facilisis congue. Maecenas venenatis tempor enim vel bibendum. Morbi imperdiet, ligula et feugiat cursus, ex magna malesuada dolor, ut feugiat magna sapien vel est. Fusce molestie nec dolor a egestas. Proin sit amet pharetra risus.</p>
+		</div>
+
+
+</footer>
+</body>
+</html>
