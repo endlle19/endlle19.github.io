@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Grid - Bsp. 1</title>
+
+	<style type="text/css">
+
+		div { 
+		border: solid  blue 3px; }
+
+		.container{ 
+			height: 300px;
+			width:500px ;
+			/* defines the grid */
+			display: grid;
+			/* defines the number and width of the columns */
+			grid-template-columns: 1fr 1fr 1fr;
+			/* defines the number and width of the rows */
+			grid-template-rows: 200px auto;
+		 }
+
+		 #special { 
+
+
+		 	grid-column-start:1 ;
+		 	grid-column-end: 3;
+		 	/* Short command: grid-column: 1/3 ; */
+
+
+		  }
+		
+
+	</style>
+</head>
+<body>
+
+	<div class="container">
+		<div>1</div>
+		<div>2</div>
+		<div>3</div>
+		<div id="special">4</div>
+		<div>5</div>
+	</div>
+
+</body>
+</html>
